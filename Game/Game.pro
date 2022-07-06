@@ -16,16 +16,22 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    board.cpp \
+    getname.cpp \
     main.cpp \
     mainwindow.cpp \
     playernaming.cpp
 
 HEADERS += \
     Players.h \
+    board.h \
+    getname.h \
     mainwindow.h \
     playernaming.h
 
 FORMS += \
+    board.ui \
+    getname.ui \
     mainwindow.ui \
     playernaming.ui
 

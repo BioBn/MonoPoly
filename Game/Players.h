@@ -3,14 +3,14 @@
 #include <QString>
 #include <QColor>
 
+enum status {NO , YES};
 
 class Players
 {
-private:
-    QString name;
-    short int num;
+public:
+    QString name = NULL;
     QColor color;
-
+    status InGame = NO;
 };
 
 #endif // PLAYERS_H

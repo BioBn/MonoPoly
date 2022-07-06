@@ -30,7 +30,7 @@
    <item>
     <widget class="QPushButton" name="pushButton">
      <property name="styleSheet">
-      <string notr="true">font:&quot;NSimSun&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>Add Player</string>
@@ -40,7 +40,7 @@
    <item>
     <widget class="QPushButton" name="pushButton_2">
      <property name="styleSheet">
-      <string notr="true">font: &quot;NSimSun&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string> Start Game</string>
