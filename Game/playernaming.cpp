@@ -3,7 +3,7 @@
 #include "getname.h"
 #include "board.h"
 
-
+int PlayerNaming::cnt = 0;
 QVector<Players> PlayerNaming::p;
 short int PlayerNaming::playerCnt = 0;
 PlayerNaming::PlayerNaming(QWidget *parent) :
@@ -29,10 +29,12 @@ void PlayerNaming::on_pushButton_clicked()
         ui->listWidget->addItem(p[prevPCnt].name);
         prevPCnt = playerCnt;
     }
+    cnt++;
 }
 
 void PlayerNaming::on_pushButton_2_clicked()
 {
+    p.resize(cnt);
    if(prevPCnt > 1)
    {
     Board PNwindow;

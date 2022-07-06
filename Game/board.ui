@@ -154,6 +154,223 @@
     <string/>
    </property>
   </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>550</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Roll dice</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="turn">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>56</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Turn</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dice1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>520</y>
+     <width>56</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dice 1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dice2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>520</y>
+     <width>56</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dice 2</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>20</y>
+     <width>58</width>
+     <height>172</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="n1">
+      <property name="styleSheet">
+       <string notr="true">Background:rgb(255, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="n2">
+      <property name="styleSheet">
+       <string notr="true">Background:rgb(85, 0, 255)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="n3">
+      <property name="styleSheet">
+       <string notr="true">Background:rgb(85, 170, 0)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="n4">
+      <property name="styleSheet">
+       <string notr="true">Background:rgb(255, 255, 0)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="n5">
+      <property name="styleSheet">
+       <string notr="true">Background:rgb(85, 0, 127)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="n6">
+      <property name="styleSheet">
+       <string notr="true">Background:rgb(255, 85, 255)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="n7">
+      <property name="styleSheet">
+       <string notr="true">Background:rgb(0, 0, 0);
+color:rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="n8">
+      <property name="styleSheet">
+       <string notr="true">Background:rgb(85, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>20</y>
+     <width>60</width>
+     <height>174</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="w1">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="w2">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="w3">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="w4">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="w5">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="w6">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="w7">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="w8">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
  </widget>
  <resources/>
  <connections/>

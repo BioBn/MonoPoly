@@ -17,20 +17,25 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     board.cpp \
+    buy.cpp \
     getname.cpp \
     main.cpp \
     mainwindow.cpp \
     playernaming.cpp
 
 HEADERS += \
+    PlayerSlot.h \
     Players.h \
+    Slot.h \
     board.h \
+    buy.h \
     getname.h \
     mainwindow.h \
     playernaming.h
 
 FORMS += \
     board.ui \
+    buy.ui \
     getname.ui \
     mainwindow.ui \
     playernaming.ui
